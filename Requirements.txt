@@ -1,0 +1,6 @@
+nltk
+tensorflow
+pandas
+spacy
+scikit-learn
+-e .

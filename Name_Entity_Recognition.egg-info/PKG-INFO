@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Name_Entity_Recognition
+Version: 0.0.1
+Author: GnanaChaithanya
+Author-email: m.gnanachaithanya12@gmail.com
+Requires-Dist: nltk
+Requires-Dist: tensorflow

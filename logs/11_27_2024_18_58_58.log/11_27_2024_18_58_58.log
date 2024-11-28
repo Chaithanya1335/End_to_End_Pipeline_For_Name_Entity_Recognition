@@ -1,0 +1,14 @@
+[ 2024-11-27 18:59:03,032 ] 20 root - INFO - Data Ingestion started
+[ 2024-11-27 18:59:03,286 ] 25 root - INFO - Data Readed as DataFrame
+[ 2024-11-27 18:59:03,286 ] 27 root - INFO - Extracting only Text from Data
+[ 2024-11-27 18:59:03,413 ] 37 root - INFO - Text Extracted from data
+[ 2024-11-27 18:59:03,413 ] 39 root - INFO - DataIngestion Completed
+[ 2024-11-27 18:59:04,212 ] 20 root - INFO - Data Transformation started
+[ 2024-11-27 18:59:04,212 ] 22 root - INFO - loading Text data
+[ 2024-11-27 18:59:04,281 ] 26 root - INFO - Data Loaded
+[ 2024-11-27 19:11:26,192 ] 53 root - INFO - Converting Senteces into Numerical sequences
+[ 2024-11-27 19:25:43,414 ] 58 root - INFO - Padding the sequences
+[ 2024-11-27 19:25:43,924 ] 67 root - INFO - Splitting The Data
+[ 2024-11-27 19:25:44,207 ] 72 root - INFO - Data Transformation Completed
+[ 2024-11-27 19:25:44,330 ] 18 root - INFO - Model Training started
+[ 2024-11-27 19:30:58,425 ] 36 root - INFO - Model Training Finished
