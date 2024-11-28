@@ -3,6 +3,7 @@ from src.logger import logging
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, LSTM, Dense
+from src.Utils import save_object
 from dataclasses import dataclass
 import pickle
 import os
@@ -43,8 +44,8 @@ class ModelTraining:
             logging.info(f"Accuracy Achieved:{accuracy} Loss:{loss}")
 
             
-            with open(self.ModelConfig.model_path,'wb') as file:
-                pickle.dump(model,file)
+            save_object(self.ModelConfig.model_path,model)
+
             logging.info("Model Saved")
             return (loss,accuracy)
         except Exception as e:
