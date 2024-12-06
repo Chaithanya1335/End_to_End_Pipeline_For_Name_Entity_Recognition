@@ -1,0 +1,2 @@
+[ 2024-12-06 17:39:12,245 ] 149 tensorflow - WARNING - From d:\projects\End_to_End_Pipeline_For_Name_Entity_Recognition\ner\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+

@@ -1,0 +1,31 @@
+[ 2024-12-06 21:00:42,630 ] 21 root - INFO - Data Ingestion started
+[ 2024-12-06 21:00:42,833 ] 28 root - INFO - Data Readed as DataFrame
+[ 2024-12-06 21:00:42,833 ] 30 root - INFO - Extracting only Text from Data
+[ 2024-12-06 21:00:43,026 ] 40 root - INFO - Text Extracted from data
+[ 2024-12-06 21:00:43,026 ] 42 root - INFO - DataIngestion Completed
+[ 2024-12-06 21:00:43,525 ] 31 root - INFO - Data Transformation started
+[ 2024-12-06 21:00:43,525 ] 32 root - INFO - Loading text data
+[ 2024-12-06 21:00:43,592 ] 36 root - INFO - Data Loaded
+[ 2024-12-06 21:00:43,594 ] 44 root - INFO - Extracting Tokens and POS Tags
+[ 2024-12-06 21:08:41,776 ] 64 root - INFO - Tokens and POS Tags Extracted
+[ 2024-12-06 21:26:21,745 ] 70 root - INFO - Padding the sequences
+[ 2024-12-06 21:26:22,868 ] 84 root - INFO - Saving word_to_index and index_to_tag
+[ 2024-12-06 21:26:22,868 ] 43 root - INFO - Saving Files
+[ 2024-12-06 21:26:23,144 ] 43 root - INFO - Saving Files
+[ 2024-12-06 21:26:23,153 ] 90 root - INFO - Splitting the Data
+[ 2024-12-06 21:26:23,537 ] 98 root - INFO - Data Transformation Completed
+[ 2024-12-06 21:26:23,714 ] 20 root - INFO - Model Training started
+[ 2024-12-06 21:26:23,714 ] 34 root - INFO - Loading Files
+[ 2024-12-06 21:26:23,775 ] 34 root - INFO - Loading Files
+[ 2024-12-06 21:44:52,130 ] 51 root - INFO - Model Training Finished
+[ 2024-12-06 21:44:56,612 ] 57 root - INFO - Accuracy Achieved:0.9921419024467468 Loss:0.03370443731546402
+[ 2024-12-06 21:44:56,711 ] 62 root - INFO - Model Saved
+[ 2024-12-06 21:44:56,711 ] 16 root - INFO - Prediction started
+[ 2024-12-06 21:44:57,493 ] 21 root - INFO - Loading The Word_to_index and tag_index
+[ 2024-12-06 21:44:57,493 ] 34 root - INFO - Loading Files
+[ 2024-12-06 21:44:57,509 ] 34 root - INFO - Loading Files
+[ 2024-12-06 21:44:57,509 ] 37 root - INFO - Converting tokens into Numerical Sequences
+[ 2024-12-06 21:44:57,509 ] 40 root - INFO - Padding The Numerical Sequences
+[ 2024-12-06 21:44:57,677 ] 44 root - INFO - Getting Tags Indexes
+[ 2024-12-06 21:44:57,677 ] 48 root - INFO - Getting Name Entity's From given text
+[ 2024-12-06 21:44:57,677 ] 53 root - INFO - Name Entity's Extracted : []

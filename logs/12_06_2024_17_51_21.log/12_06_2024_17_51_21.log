@@ -1,0 +1,22 @@
+[ 2024-12-06 17:51:28,925 ] 149 tensorflow - WARNING - From d:\projects\End_to_End_Pipeline_For_Name_Entity_Recognition\ner\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+[ 2024-12-06 17:51:36,557 ] 15 root - INFO - Prediction started
+[ 2024-12-06 17:51:36,557 ] 33 root - INFO - Loading The Model
+[ 2024-12-06 17:51:38,737 ] 20 root - INFO - Loading The Word_to_index and tag_index
+[ 2024-12-06 17:51:38,737 ] 40 root - INFO - Loading Files
+[ 2024-12-06 17:51:38,768 ] 40 root - INFO - Loading Files
+[ 2024-12-06 17:51:38,768 ] 36 root - INFO - Converting tokens into Numerical Sequences
+[ 2024-12-06 17:51:38,768 ] 39 root - INFO - Padding The Numerical Sequences
+[ 2024-12-06 17:51:39,462 ] 43 root - INFO - Getting Tags Indexes
+[ 2024-12-06 17:51:39,462 ] 47 root - INFO - Getting Name Entity's From given text
+[ 2024-12-06 17:51:39,462 ] 52 root - INFO - Name Entity's Extracted : []
+[ 2024-12-06 17:51:58,793 ] 15 root - INFO - Prediction started
+[ 2024-12-06 17:51:58,793 ] 33 root - INFO - Loading The Model
+[ 2024-12-06 17:52:00,695 ] 20 root - INFO - Loading The Word_to_index and tag_index
+[ 2024-12-06 17:52:00,695 ] 40 root - INFO - Loading Files
+[ 2024-12-06 17:52:00,742 ] 40 root - INFO - Loading Files
+[ 2024-12-06 17:52:00,742 ] 36 root - INFO - Converting tokens into Numerical Sequences
+[ 2024-12-06 17:52:00,742 ] 39 root - INFO - Padding The Numerical Sequences
+[ 2024-12-06 17:52:01,383 ] 43 root - INFO - Getting Tags Indexes
+[ 2024-12-06 17:52:01,383 ] 47 root - INFO - Getting Name Entity's From given text
+[ 2024-12-06 17:52:01,383 ] 52 root - INFO - Name Entity's Extracted : []

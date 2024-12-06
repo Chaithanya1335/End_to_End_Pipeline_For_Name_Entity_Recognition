@@ -5,3 +5,7 @@ Author: GnanaChaithanya
 Author-email: m.gnanachaithanya12@gmail.com
 Requires-Dist: nltk
 Requires-Dist: tensorflow
+Requires-Dist: pandas
+Requires-Dist: spacy
+Requires-Dist: scikit-learn
+Requires-Dist: streamlit

@@ -3,6 +3,7 @@ from src.logger import logging
 from src.Components.DataTransformation import DataTransformation
 from src.Components.Model import ModelTraining
 from src.Components.Model import ModelConfig
+from src.Components.Predict import Predict
 from dataclasses import dataclass
 import pandas as pd
 import sys 
@@ -20,7 +21,9 @@ class DataIngestion:
         logging.info("Data Ingestion started")
 
         try:
-            data = pd.read_csv(r'D:\projects\Name_entity_Recognition\ner.csv')
+            os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+            
+            data = pd.read_csv(r'D:\projects\End_to_End_Pipeline_For_Name_Entity_Recognition\ner.csv')
 
             logging.info("Data Readed as DataFrame")
 
@@ -44,6 +47,8 @@ class DataIngestion:
             raise CustomException(e,sys)
         
 if __name__ =="__main__":
+    text = "Hi iam Gnana Chaithanya, aspiring Data Scientist Taking coaching at 360digitmg"
     text_path = DataIngestion().initiate_data_Ingestion()
-    x_train,x_test,y_train,y_test,max_len,word_to_index,tag_to_index = DataTransformation().initiate_dataTransformation(text_path)
-    loss,accuracy = ModelTraining().initiate_model_training(x_train,x_test,y_train,y_test,max_len,word_to_index,tag_to_index)
+    x_train,x_test,y_train,y_test= DataTransformation().initiate_dataTransformation(text_path)
+    loss,accuracy,model_path = ModelTraining().initiate_model_training(x_train,x_test,y_train,y_test)
+    Name_Entitys = Predict().predict_data(text=text)

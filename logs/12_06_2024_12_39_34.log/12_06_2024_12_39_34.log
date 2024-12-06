@@ -1,0 +1,10 @@
+[ 2024-12-06 12:39:42,295 ] 21 root - INFO - Data Ingestion started
+[ 2024-12-06 12:39:42,521 ] 28 root - INFO - Data Readed as DataFrame
+[ 2024-12-06 12:39:42,521 ] 30 root - INFO - Extracting only Text from Data
+[ 2024-12-06 12:39:42,627 ] 40 root - INFO - Text Extracted from data
+[ 2024-12-06 12:39:42,627 ] 42 root - INFO - DataIngestion Completed
+[ 2024-12-06 12:39:43,163 ] 31 root - INFO - Data Transformation started
+[ 2024-12-06 12:39:43,163 ] 32 root - INFO - Loading text data
+[ 2024-12-06 12:39:43,227 ] 36 root - INFO - Data Loaded
+[ 2024-12-06 12:39:43,227 ] 44 root - INFO - Extracting Tokens and POS Tags
+[ 2024-12-06 12:46:22,157 ] 64 root - INFO - Tokens and POS Tags Extracted

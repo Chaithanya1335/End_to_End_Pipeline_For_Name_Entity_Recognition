@@ -1,0 +1,33 @@
+[ 2024-12-06 14:50:42,227 ] 21 root - INFO - Data Ingestion started
+[ 2024-12-06 14:50:42,424 ] 28 root - INFO - Data Readed as DataFrame
+[ 2024-12-06 14:50:42,424 ] 30 root - INFO - Extracting only Text from Data
+[ 2024-12-06 14:50:42,536 ] 40 root - INFO - Text Extracted from data
+[ 2024-12-06 14:50:42,536 ] 42 root - INFO - DataIngestion Completed
+[ 2024-12-06 14:50:43,035 ] 31 root - INFO - Data Transformation started
+[ 2024-12-06 14:50:43,035 ] 32 root - INFO - Loading text data
+[ 2024-12-06 14:50:43,101 ] 36 root - INFO - Data Loaded
+[ 2024-12-06 14:50:43,101 ] 44 root - INFO - Extracting Tokens and POS Tags
+[ 2024-12-06 14:57:28,778 ] 64 root - INFO - Tokens and POS Tags Extracted
+[ 2024-12-06 15:07:23,463 ] 70 root - INFO - Padding the sequences
+[ 2024-12-06 15:07:23,839 ] 83 root - INFO - Saving word_to_index and index_to_tag
+[ 2024-12-06 15:07:23,839 ] 49 root - INFO - Saving Files
+[ 2024-12-06 15:07:23,918 ] 49 root - INFO - Saving Files
+[ 2024-12-06 15:07:23,918 ] 89 root - INFO - Splitting the Data
+[ 2024-12-06 15:07:24,081 ] 95 root - INFO - Data Transformation Completed
+[ 2024-12-06 15:07:24,137 ] 20 root - INFO - Model Training started
+[ 2024-12-06 15:07:24,137 ] 40 root - INFO - Loading Files
+[ 2024-12-06 15:07:24,153 ] 40 root - INFO - Loading Files
+[ 2024-12-06 17:38:09,412 ] 51 root - INFO - Model Training Finished
+[ 2024-12-06 17:38:14,303 ] 57 root - INFO - Accuracy Achieved:0.9930781126022339 Loss:0.020579643547534943
+[ 2024-12-06 17:38:14,303 ] 11 root - INFO - Saving the model
+[ 2024-12-06 17:38:14,413 ] 62 root - INFO - Model Saved
+[ 2024-12-06 17:38:14,429 ] 15 root - INFO - Prediction started
+[ 2024-12-06 17:38:14,429 ] 33 root - INFO - Loading The Model
+[ 2024-12-06 17:38:15,403 ] 20 root - INFO - Loading The Word_to_index and tag_index
+[ 2024-12-06 17:38:15,403 ] 40 root - INFO - Loading Files
+[ 2024-12-06 17:38:15,419 ] 40 root - INFO - Loading Files
+[ 2024-12-06 17:38:15,434 ] 36 root - INFO - Converting tokens into Numerical Sequences
+[ 2024-12-06 17:38:15,434 ] 39 root - INFO - Padding The Numerical Sequences
+[ 2024-12-06 17:38:15,661 ] 43 root - INFO - Getting Tags Indexes
+[ 2024-12-06 17:38:15,661 ] 47 root - INFO - Getting Name Entity's From given text
+[ 2024-12-06 17:38:15,662 ] 52 root - INFO - Name Entity's Extracted : []

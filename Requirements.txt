@@ -3,4 +3,7 @@ tensorflow
 pandas
 spacy
 scikit-learn
+streamlit
+simplejson
+django
 -e .

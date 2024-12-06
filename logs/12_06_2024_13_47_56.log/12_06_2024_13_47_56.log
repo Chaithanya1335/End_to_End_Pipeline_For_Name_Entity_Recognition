@@ -1,0 +1,23 @@
+[ 2024-12-06 13:48:02,913 ] 21 root - INFO - Data Ingestion started
+[ 2024-12-06 13:48:03,088 ] 28 root - INFO - Data Readed as DataFrame
+[ 2024-12-06 13:48:03,088 ] 30 root - INFO - Extracting only Text from Data
+[ 2024-12-06 13:48:03,205 ] 40 root - INFO - Text Extracted from data
+[ 2024-12-06 13:48:03,205 ] 42 root - INFO - DataIngestion Completed
+[ 2024-12-06 13:48:03,730 ] 31 root - INFO - Data Transformation started
+[ 2024-12-06 13:48:03,730 ] 32 root - INFO - Loading text data
+[ 2024-12-06 13:48:03,819 ] 36 root - INFO - Data Loaded
+[ 2024-12-06 13:48:03,819 ] 44 root - INFO - Extracting Tokens and POS Tags
+[ 2024-12-06 13:55:44,766 ] 64 root - INFO - Tokens and POS Tags Extracted
+[ 2024-12-06 14:43:07,951 ] 70 root - INFO - Padding the sequences
+[ 2024-12-06 14:43:08,517 ] 83 root - INFO - Saving word_to_index and index_to_tag
+[ 2024-12-06 14:43:08,517 ] 49 root - INFO - Saving Files
+[ 2024-12-06 14:43:08,612 ] 49 root - INFO - Saving Files
+[ 2024-12-06 14:43:08,612 ] 89 root - INFO - Splitting the Data
+[ 2024-12-06 14:43:08,848 ] 95 root - INFO - Data Transformation Completed
+[ 2024-12-06 14:43:08,958 ] 20 root - INFO - Model Training started
+[ 2024-12-06 14:43:08,958 ] 40 root - INFO - Loading Files
+[ 2024-12-06 14:43:08,974 ] 40 root - INFO - Loading Files
+[ 2024-12-06 14:49:16,285 ] 51 root - INFO - Model Training Finished
+[ 2024-12-06 14:49:22,131 ] 57 root - INFO - Accuracy Achieved:0.9931994676589966 Loss:0.020106978714466095
+[ 2024-12-06 14:49:22,131 ] 11 root - INFO - Saving the model
+[ 2024-12-06 14:49:22,302 ] 62 root - INFO - Model Saved

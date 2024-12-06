@@ -1,5 +1,0 @@
-[ 2024-11-27 16:41:26,734 ] 17 root - INFO - Data Ingestion started
-[ 2024-11-27 16:41:26,918 ] 22 root - INFO - Data Readed as DataFrame
-[ 2024-11-27 16:41:26,918 ] 24 root - INFO - Extracting only Text from Data
-[ 2024-11-27 16:41:26,918 ] 33 root - INFO - Text Extracted from data
-[ 2024-11-27 16:41:26,918 ] 35 root - INFO - DataIngestion Completed

@@ -1,2 +1,6 @@
 nltk
 tensorflow
+pandas
+spacy
+scikit-learn
+streamlit

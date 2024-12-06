@@ -1,0 +1,11 @@
+[ 2024-12-06 20:58:58,578 ] 149 tensorflow - WARNING - From d:\projects\End_to_End_Pipeline_For_Name_Entity_Recognition\ner\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+[ 2024-12-06 20:59:03,025 ] 16 root - INFO - Prediction started
+[ 2024-12-06 20:59:04,006 ] 21 root - INFO - Loading The Word_to_index and tag_index
+[ 2024-12-06 20:59:04,006 ] 34 root - INFO - Loading Files
+[ 2024-12-06 20:59:04,006 ] 34 root - INFO - Loading Files
+[ 2024-12-06 20:59:04,022 ] 37 root - INFO - Converting tokens into Numerical Sequences
+[ 2024-12-06 20:59:04,022 ] 40 root - INFO - Padding The Numerical Sequences
+[ 2024-12-06 20:59:04,472 ] 44 root - INFO - Getting Tags Indexes
+[ 2024-12-06 20:59:04,472 ] 48 root - INFO - Getting Name Entity's From given text
+[ 2024-12-06 20:59:04,472 ] 53 root - INFO - Name Entity's Extracted : []
